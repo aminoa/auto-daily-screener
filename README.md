@@ -1,6 +1,6 @@
 # Auto Daily Screener
 
-<p align="center">
+<p align="left">
   <img width="128" src="daily_screener_cancel.png" />
 </p>
 

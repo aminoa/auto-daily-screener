@@ -15,7 +15,9 @@ Credits to BYE DUO and DUO Bypass for the code generation code. Pyinstaller used
 
 ## How do I use this?
 
-Read this or else this isn't going to work. I'll spare the technical details (you can look on GitHub if you want). Also the script is currently Windows only but this could be easily adapted to other platforms in the future if there's demand.
+Video Tutorial: https://www.youtube.com/watch?v=W63eWNTG2W0
+
+Read this or else this isn't going to work. The video is linked above. Otherwise, the written instructions are below.
 
 ### Making a new device
 

@@ -30,7 +30,7 @@ This script works by bypassing the NYU mfa but to do that, you'll need to create
 
 7. Refresh the DUO mobile page (or just open a new window). Go to 'my settings and devices' and reauthenticate with your phone (or another device) like you did before. You should see a new Android device. For the default device option, set it to the new device you made and save. 
 
-8. You're done! However, you still have to manually run the .exe everytime you want to run the script. What if could automatically be done for you...
+8. You're done! If you check your email, the confirmation message should appear soon. However, you still have to manually run the .exe everytime you want to run the script. What if could automatically be done for you...
 
 ### (Optional but recommeneded) Running the script daily
 

@@ -40,6 +40,8 @@ This script works by bypassing the NYU mfa but to do that, you'll need to create
 
 2. Right click on Task Scheduler library and click 'Create Basic Task'. Put a name and description (I put "Auto Daily Screener" for the name, how creative)
 
-3. Have it run daily (lol) at 12:00 AM. Then click 'start a program'. Browse to the ads.exe file and click on it. Click next and then finish.
+3. Have it run daily (lol) at 12:00 AM. You can leave the date and the recurrence the same. Then click 'start a program'. Browse to the ads.exe file and click on it. Now you'll want to copy the file directory to the "Start in" directory **without** the executable. Example: the program directory is "\..\ads\ads.exe". Thus, the start in directory should be "..\ads" without the final backslash character. Don't put "" when putting the paths into the task scheduler.  Click next and then finish.
+
+4. Now right click on the task you just created and click properties. Click conditions and uncheck the box which says "Start the task only if the computer is on AC power". Next click settings and check the "Run task as soon as possible after a scheduled start is missed". Click ok. 
 
 4. Voila! The script now runs at midnight meaning that you'll always have the daily screener ready before class in the morning. Hope you enjoy!

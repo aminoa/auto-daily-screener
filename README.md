@@ -24,9 +24,9 @@ This script works by bypassing the NYU mfa but to do that, you'll need to create
 
 4. Send the link to your email. Once you recieve it, **don't** click it (it's okay if you accidentally do). However, the link itself is what matters. (The link format is like this: https://m---------.duosecurity.com/android/--------------------)
 
-5. Go to credentials.json and fill in your username, password, and deviceURL (the link you just got). Leave everything else the same. (Don't worry, this information is kept on your local device).
+5. Now open the ads folder. There will be a lot of files in there but don't touch most of them. Go to the "credentials.json" file and fill in your username, password, and deviceURL (the link you just got). Leave everything else the same. (Don't worry, this information is kept on your local device).
 
-6. Now run the app once. You'll see it generate a secret which means you did it right. If not, then the URL wasn't properly put in. You're almost there but you need to do one more thing.
+6. Now run the app (ads.exe) once. You'll see it generate a secret which means you did it right. If not, then the URL wasn't properly put in. You're almost there but you need to do one more thing. (Optionally you can create a shortcut of ads.exe by right clicking it and clicking "Create Shortcut")
 
 7. Refresh the DUO mobile page (or just open a new window). Go to 'my settings and devices' and reauthenticate with your phone (or another device) like you did before. You should see a new Android device. For the default device option, set it to the new device you made and save. 
 

@@ -1,5 +1,10 @@
 # Auto Daily Screener
 
+<p align="center">
+  <img width="128" src="daily_screener_cancel.png" />
+</p>
+
+
 This automates the NYU Daily Screener using Selenium by automatically going through the NYU web form and filling in all the details automatically. Windows only for now but should be relatively easy to port.
 
 Credits to BYE DUO and DUO Bypass for the code generation code. Pyinstaller used for creating binary. There are no macOS or Linux binaries though both should be pretty easy to make.

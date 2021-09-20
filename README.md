@@ -13,6 +13,14 @@ Credits to BYE DUO and DUO Bypass for the code generation code. Pyinstaller used
 
 - Need Windows and Google Chrome. 
 
+## Build Instructions
+
+Install Python 3 and download the source. Also download a version of the chrome driver that matches your chrome version. Then install pyinstaller. Run this command in the source directory:
+
+pyinstaller ads.py
+
+The build should be found in the 'dist' folder that was just created.
+
 ## How do I use this?
 
 Video Tutorial: https://www.youtube.com/watch?v=W63eWNTG2W0

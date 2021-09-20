@@ -19,7 +19,7 @@ Install Python 3 and download the source. Also download or manually compile a ve
 
 pyinstaller ads.py
 
-The build should be found in the 'dist' folder that was just created. Place your chromedriver there.
+The build should be found in the 'dist' folder that was just created. Place your chromedriver and credentials.json file there.
 
 Also you can probably use other browsers if you want and compile this to different platforms.
 

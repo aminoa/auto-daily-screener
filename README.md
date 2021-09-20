@@ -15,7 +15,7 @@ Credits to BYE DUO and DUO Bypass for the code generation code. Pyinstaller used
 
 ## Build Instructions
 
-Install Python 3 and download the source. Also download or manually compile a version of the chrome driver that matches your chrome version. Then install pyinstaller. Run this command in the source directory:
+Install Python 3 and download the source. Also download or manually compile a version of the chrome driver that matches your chrome version and place it in the source directory. Then install pyinstaller. Run this command in the source directory:
 
 pyinstaller ads.py
 

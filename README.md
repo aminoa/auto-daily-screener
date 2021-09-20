@@ -23,7 +23,7 @@ The build should be found in the 'dist' folder that was just created.
 
 ## How does it work?
 
-This runs a selenium script to automatically go through the form and then generates a code from a virtual device in order to bypass MFA.
+This runs a selenium script to automatically go through the form and then generates a code from a virtual device in order to bypass MFA. You can use external tools like the Windows Task Scheduler to have it run daily.
 
 ## How do I use this?
 

@@ -15,11 +15,15 @@ Credits to BYE DUO and DUO Bypass for the code generation code. Pyinstaller used
 
 ## Build Instructions
 
-Install Python 3 and download the source. Also download a version of the chrome driver that matches your chrome version. Then install pyinstaller. Run this command in the source directory:
+Install Python 3 and download the source. Also download or manually compile a version of the chrome driver that matches your chrome version. Then install pyinstaller. Run this command in the source directory:
 
 pyinstaller ads.py
 
 The build should be found in the 'dist' folder that was just created.
+
+## How does it work?
+
+This runs a selenium script to automatically go through the form and then generates a code from a virtual device in order to bypass MFA.
 
 ## How do I use this?
 

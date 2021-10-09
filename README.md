@@ -4,6 +4,7 @@
   <img width="128" src="daily_screener_cancel.png" />
 </p>
 
+**THIS IS OUTDATED - DON'T USE IT** 
 
 This automates the NYU Daily Screener using Selenium by automatically going through the NYU web form and filling in all the details automatically. Windows only for now but should be relatively easy to port.
 

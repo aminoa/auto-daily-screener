@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.ui import WebDriverWait
+from selenium.common.exceptions import NoSuchElementException
 import time
 import pyotp
 import json
@@ -27,7 +28,7 @@ def generate_secret(deviceURL):
     DUO = f"https://api{domain}/push/v2/activation/{key}?customer_protocol=1"
     try:
         req = json.loads(requests.post(DUO).text)
-        hotpSecret = req['response']['hotp_secret']            
+        hotpSecret = req['response']['hotp_secret']
         print("Successfully activated device and generated secret!")
         return hotpSecret
     except:
@@ -95,6 +96,17 @@ def automation():
     #Switched iframes
     time.sleep(1) #temporary, remove later
 
+    # Try cancelling and selecting correct device
+    try:
+        driver.find_element_by_class_name("btn-cancel").click()
+        time.sleep(1)
+        # pick_device = Select(driver.find_element_by_name("device"))
+        # pick_device.select_by_visible_text("Python (Android)")
+        # pick_device.select_by_value("phone2")
+    except NoSuchElementException:
+        # Nothing to cancel
+        pass
+
     # Use HOTP passcode to authenticate
     driver.find_element_by_id("passcode").click()
     driver.find_element_by_class_name("passcode-input").send_keys(code)
@@ -107,6 +119,7 @@ def automation():
         credentialsData["needSecret"] = False
         credentialsJson = json.dumps(credentialsData, indent = 4)
         credentialsFile.write(credentialsJson)
+
 # Load user credentials
 with open("credentials.json", "r") as credentialsFile:
     credentialsData = json.load(credentialsFile)

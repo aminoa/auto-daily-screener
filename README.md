@@ -4,6 +4,8 @@
   <img width="128" src="daily_screener_cancel.png" />
 </p>
 
+**Currently broken due to update to Bye DUO so MFA doesn't work currently***
+
 **If you don't mind a little work for doing daily screeners, just refreshing a completed daily screener tab from the previous day (or before) before will automatically generate a new screener for the current day. However, if you really want to have it be fully automated, then read on. **
 
 This automates the NYU Daily Screener using Selenium by automatically going through the NYU web form and filling in all the details automatically. Windows only for now but should be relatively easy to port.
